@@ -49,14 +49,11 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-# Resolving missing terraform versions on M1 for tfenv install
-# See https://stackoverflow.com/questions/71606880/setting-up-terraform-v0-14-0-on-apple-m1
-export TFENV_ARCH=amd64
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/xuwang/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/xuwang/bin/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '$HOME/bin/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/bin/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/xuwang/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/xuwang/bin/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '$HOME/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/bin/google-cloud-sdk/completion.zsh.inc'; fi
 
 # Use vault OIDC auth 
 export VAULT_AUTH_METHOD=oidc
@@ -64,6 +61,10 @@ export VAULT_ADDR=https://vault.med.stanford.edu
 
 export GITLAB_SERVER=https://gitlab.med.stanford.edu
 
-if [ -d '/Users/xuwang/bin/ps-cloud-framework/scripts' ]; then 
-  export PATH=/Users/xuwang/bin/ps-cloud-framework/scripts:$PATH
+if [ -d '$HOME/bin/ps-cloud-framework/scripts' ]; then 
+  export PATH=$HOME/bin/ps-cloud-framework/scripts:$PATH
 fi
+
+# Resolving missing terraform versions on M1 for tfenv install
+# See https://stackoverflow.com/questions/71606880/setting-up-terraform-v0-14-0-on-apple-m1
+export TFENV_ARCH=amd64
