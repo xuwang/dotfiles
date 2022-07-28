@@ -57,3 +57,13 @@ if [ -f '/Users/xuwang/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/xuwa
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/xuwang/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/xuwang/bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Use vault OIDC auth 
+export VAULT_AUTH_METHOD=oidc
+export VAULT_ADDR=https://vault.med.stanford.edu
+
+export GITLAB_SERVER=https://gitlab.med.stanford.edu
+
+if [ -d '/Users/xuwang/bin/ps-cloud-framework/scripts' ]; then 
+  export PATH=/Users/xuwang/bin/ps-cloud-framework/scripts:$PATH
+fi
