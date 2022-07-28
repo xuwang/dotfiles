@@ -4,11 +4,21 @@
 [hub]
         protocol = https
 [alias]
-        co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+        ci = commit
+        st = status
+        co = checkout
+        br = branch
+	lc = log ORIG_HEAD.. --stat --no-merges
+	llog = log --date=local
+	undo = reset --hard
+	changes = diff --name-status -r
+	diffstat = diff --stat -r
+	new = !sh -c 'git log log $1@{1}..$1@{0} "$@"'
+        pullall = "!f(){ git pull \"$@\" && git submodule update --init --recursive; }; f"
 [color]
         diff = auto
         status = auto
