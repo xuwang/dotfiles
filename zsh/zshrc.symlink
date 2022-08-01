@@ -63,6 +63,8 @@ export GITLAB_SERVER=https://gitlab.med.stanford.edu
 
 if [ -d "$HOME/bin/ps-cloud-framework/scripts" ]; then 
   export PATH=$HOME/bin/ps-cloud-framework/scripts:$PATH
+  export GCP_USER=$USER
+  export VAULT_USER=$USER
 fi
 
 # Resolving missing terraform versions on M1 for tfenv install
