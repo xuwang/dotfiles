@@ -61,7 +61,7 @@ export VAULT_ADDR=https://vault.med.stanford.edu
 
 export GITLAB_SERVER=https://gitlab.med.stanford.edu
 
-if [ -d '$HOME/bin/ps-cloud-framework/scripts' ]; then 
+if [ -d "$HOME/bin/ps-cloud-framework/scripts" ]; then 
   export PATH=$HOME/bin/ps-cloud-framework/scripts:$PATH
 fi
 
