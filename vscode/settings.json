@@ -1,0 +1,83 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.keymap": "alternate",
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "files.associations": {
+        "*.tf": "terraform",
+        "*.def": "shellscript"
+    },
+    "markdown.preview.fontSize": 12,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "cloudcode.gke": {
+        "projectIds": [
+            "som-irt-vault",
+            "clever-circlet-125504",
+            "som-tds-as",
+            "som-laneweb",
+            "som-racetoacure"
+        ]
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terraform.telemetry.enabled": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "terraform.languageServer": {
+        "external": true
+    },
+    "terminal.integrated.scrollback": 5000,
+    "liveshare.authenticationProvider": "GitHub",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "redhat.telemetry.enabled": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "ms-ossdata.vscode-postgresql"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "settingsSync.ignoredExtensions": [
+    
+    ],
+    "sync.quietSync": true,
+    "settingsSync.ignoredSettings": [
+        "sync.gist"
+    ],
+    "sync.gist": "407796b8ac7b7b6d2e8ef0d77642b881",
+    "window.zoomLevel": 2,
+}
