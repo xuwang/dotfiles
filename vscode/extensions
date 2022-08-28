@@ -1,4 +1,3 @@
-bajdzis.vscode-database
 codezombiech.gitignore
 dhdersch.vscode-terraform0-12
 DotJoshJohnson.xml
@@ -26,13 +25,11 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.makefile-tools
 ms-vscode.Theme-MarkdownKit
-mtxr.sqltools
 pjmiravalle.terraform-advanced-syntax-highlighting
 rebornix.ruby
 redhat.vscode-commons
 redhat.vscode-yaml
 sahmed.terraform-comments-beautifier
-Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 streetsidesoftware.code-spell-checker
 wingrunr21.vscode-ruby
