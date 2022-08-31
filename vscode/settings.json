@@ -40,9 +40,6 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "gitlens.gitCommands.closeOnFocusOut": true,
-    "terraform.languageServer": {
-        "external": true
-    },
     "terminal.integrated.scrollback": 5000,
     "liveshare.authenticationProvider": "GitHub",
     "mssql.connections": [
@@ -65,7 +62,6 @@
     "[sql]": {
         "editor.defaultFormatter": "ms-ossdata.vscode-postgresql"
     },
-    "diffEditor.ignoreTrimWhitespace": false,
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
@@ -79,5 +75,6 @@
         "sync.gist"
     ],
     "sync.gist": "407796b8ac7b7b6d2e8ef0d77642b881",
+    "terraform.languageServer.enable": true,
     "window.zoomLevel": 2,
 }
