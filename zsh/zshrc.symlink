@@ -71,4 +71,6 @@ fi
 # See https://stackoverflow.com/questions/71606880/setting-up-terraform-v0-14-0-on-apple-m1
 export TFENV_ARCH=amd64
 
+# PATH to mysql-client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
