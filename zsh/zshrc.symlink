@@ -74,3 +74,7 @@ export TFENV_ARCH=amd64
 # PATH to mysql-client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+if [ -d "$HOME/.krew" ]; then 
+  export PATH=$HOME/.krew/bin:$PATH
+fi

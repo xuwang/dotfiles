@@ -33,7 +33,7 @@
         ]
     },
     "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "terraform.telemetry.enabled": false,
     "[yaml]": {
