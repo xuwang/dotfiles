@@ -75,6 +75,8 @@
         "sync.gist"
     ],
     "sync.gist": "407796b8ac7b7b6d2e8ef0d77642b881",
-    "terraform.languageServer.enable": true,
+    "terraform.languageServer.enable": false,
     "window.zoomLevel": 2,
+    "terraform.codelens.referenceCount": true,
+    "terraform.languageServer.ignoreSingleFileWarning": true,
 }
